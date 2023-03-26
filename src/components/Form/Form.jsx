@@ -33,7 +33,7 @@ export default function Notes() {
       );
     } else {
       dispatch(createNote(user._id, input));
-      alert("Nota creada");
+      alert("Note created");
       setInput({
         title: "",
         description: "",
