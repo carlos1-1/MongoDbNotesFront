@@ -1,0 +1,38 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.element {
+  margin: 0 0.5rem;
+}
+
+.number {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #333;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.number:hover {
+  background-color: #ccc;
+  border-color: #999;
+  color: #fff;
+}
+
+.number:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #ddd;
+}
