@@ -9,8 +9,8 @@ import { Auth0Provider } from "@auth0/auth0-react";
 import "./index.scss";
 
 const providerConfig = {
-  domain: "dev-ml5ebkupupepircv.us.auth0.com",
-  clientId: "iClcdiuo0RvKFAJ4COrum1zp7LXErhNw",
+  domain: "dev-v48hxvnnc5llys6d.us.auth0.com",
+  clientId: "LMZ7DQB2NndQJuG3Sbw7vL5KAidsr0Gu",
   redirectUri: window.location.origin,
   useRefreshTokens: true,
   cacheLocation: "localstorage",
